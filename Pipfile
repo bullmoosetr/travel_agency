@@ -1,0 +1,23 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "*"
+requests = "*"
+python-dotenv = "*"
+djangorestframework = "*"
+django-extensions = "*"
+line-profiler = "*"
+python-memcached = "*"
+factory-boy = "*"
+django-filter = "*"
+pylint = "*"
+install = "*"
+flake8 = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.8"
